@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.main-content {
+    display: flex;
+    margin-top: 37px;
+}
+nav {
+    position: fixed;
+    border-right: 1px solid #333;
+    width: 25%;
+    height: 100%;
+}
+main {
+    width: 75%;
+    margin-left: 25%;
+    p {
+        padding-left: 10px;
+    }
+}
