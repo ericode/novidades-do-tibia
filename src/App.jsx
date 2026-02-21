@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './styles/App.css'
+import './styles/global.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,61 +9,64 @@ function App() {
   return (
     <>
       
-    <header><h1>Novidades do Tibia</h1></header>
     <div class="main-content">
         <nav>
+            <header><h1>Novidades do Tibia</h1></header>
             <ul>
                 <li><a href="#">Bestiário</a></li>
                 <li><a href="#">Sistema de Prey</a></li>
-                <li><a href="#">Charms (Major e Minor)</a></li>
+                <li><a href="#">Charms <span>(Major e Minor)</span></a></li>
                 <li><a href="#">Imbuements</a></li>
-                <li><a href="#">Wheel of Destiny (Roda de Habilidades)</a></li>
-                <li><a href="#">Gem Atelier (Sistema de Gemas)</a></li>
-                <li><a href="#">Exaltation Forge (Forja)</a></li>
+                <li><a href="#">Wheel of Destiny <span>(Roda de Habilidades)</span></a></li>
+                <li><a href="#">Gem Atelier <span>(Sistema de Gemas)</span></a></li>
+                <li><a href="#">Exaltation Forge <span>(Forja)</span></a></li>
             </ul>
         </nav>
         <main>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores dolor fuga blanditiis eaque consequatur rerum, quasi hic odit numquam id. Sequi impedit iusto itaque aperiam quidem vel quaerat facere.</p>
+
+            </article>
         </main>
 
     </div>
